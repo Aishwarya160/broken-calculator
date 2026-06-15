@@ -1,2 +1,5 @@
 def add(a, b):
-    return a - b  # Keep this intentional bug so the agent has something to fix!
+    return a - b  # Bug: should be +
+
+def multiply(a, b):
+    return a + b  # Bug: should be *
